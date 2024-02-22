@@ -2,8 +2,8 @@
 #Writing up a test scrpt for my monthly cron
 
 log=/var/log/proton.log
-Storage=/home/Uatu/Downloads/Proton/
-steamtools=/home/Uatu/.steam/root/compatibilitytools.d
+Storage=~/Downloads/Proton/
+steamtools=~/.steam/root/compatibilitytools.d
 
 #create logfile or overwrite
 printf "Log File - " > $log
